@@ -1,0 +1,39 @@
+<app-header></app-header>
+<article class="container">
+  <section class="content-margin">
+    <div class="row">
+      <div class="col-sm-12 my-3">
+        <img
+          width="600"
+          height="300"
+          class="rounded border border-5"
+          [src]="getUrlImage(noticia?.imagens)"
+        />
+      </div>
+      <div class="col-sm-12 mt-2">
+        <h6 class="text-black-50">Editora Tipo: {{ noticia?.editorias }}</h6>
+        <p class="text-black-50">
+          data da publicação: {{ noticia?.data_publicacao }}
+        </p>
+      </div>
+      <div class="col-sm-12 mt-2">
+        <h2 class="">{{ noticia?.titulo }}</h2>
+      </div>
+      <div class="col-sm-12 mt-2">
+        <p class="">{{ noticia?.introducao }}</p>
+      </div>
+      <div class="col-sm-12 mt-2">
+        <p class="text-black-50">
+          <span class="btn btn-link"
+            ><small>{{ noticia?.link }}</small></span
+          >
+        </p>
+      </div>
+      <div class="col-sm-12 my-2">
+        <button class="btn btn-outline-secondary" (click)="goToHome()">
+          Voltar
+        </button>
+      </div>
+    </div>
+  </section>
+</article>

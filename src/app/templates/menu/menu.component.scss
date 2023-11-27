@@ -1,0 +1,26 @@
+.btn-space {
+  margin-left: 15px;
+}
+
+.bg-image {
+  width: 100% !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.8;
+  z-index: -1;
+  background-image: url(https://www.folhadelondrina.com.br/img/Artigo-Destaque/3220000/1200x0/IBGE-abre-mais-de-8-mil-vagas-para-recenseadores-e0322142300202209141436-14.webp?fallback=https%3A%2F%2Fwww.folhadelondrina.com.br%2Fimg%2FArtigo-Destaque%2F3220000%2FIBGE-abre-mais-de-8-mil-vagas-para-recenseadores-e0322142300202209141436.jpg%3Fxid%3D5831359&xid=5831359);
+}
+
+.dt {
+  font-weight: bolder;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #0000;
+
+  &.secondary {
+    color: #0A2E7B;
+  }
+
+}
